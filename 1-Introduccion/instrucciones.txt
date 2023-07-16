@@ -1,0 +1,74 @@
+### CREAR ENTORNO VIRTUAL ###
+
+###
+En Windows:
+
+1. Abre una línea de comandos (CMD) o PowerShell.
+
+2. Instala virtualenv con pip escribiendo el siguiente comando:
+
+   `````
+   pip install virtualenv
+   ```
+
+3. Crea el entorno virtual escribiendo el siguiente comando:
+   ````
+   virtualenv venv 
+   ````
+
+###
+En Unix (Linux o macOS):
+1. Abre una terminal.
+
+2. Instala virtualenv con pip escribiendo el siguiente comando:
+
+   ````
+   pip install virtualenv 
+   ````
+
+
+3. Crea el entorno virtual escribiendo el siguiente comando:
+   ````
+   virtualenv venv 
+   ````
+
+
+#################
+
+
+Después de crear el entorno virtual, puedes activarlo escribiendo el siguiente comando en la línea de comandos:
+
+En Windows:
+```
+venv\Scripts\activate
+```
+
+En Unix:
+```
+source venv/bin/activate
+```
+
+Una vez activado el entorno virtual, puedes instalar paquetes de Python y trabajar en un ambiente aislado del sistema operativo. Para salir del entorno virtual, escribe el siguiente comando en la línea de comandos:
+
+```
+deactivate
+```
+
+
+###########################################################################
+
+###########################################################################
+
+* Esto es igual sin importar si estas en Windos o Unix
+
+Una vez creado el entorno virtual, puedes instalar los paquetes necesarios para ejecutar los test en el archivo "requirements.txt" utilizando el siguiente comando en la línea de comandos:
+
+```
+pip install -r requirements.txt
+```
+
+Finalmente para ejecutar los tests usa el comando:
+
+```
+pytest
+```
