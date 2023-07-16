@@ -58,13 +58,13 @@ def test_resta2():
 	assert resta2(186, 295) == -109
 	
 def test_resta3():
-	assert resta2(22, 17, 1) == 4
-	assert resta2(754, 484, 102) == 1687
-	assert resta2(186, 295, 33) == -142
+	assert resta3(22, 17, 1) == 4
+	assert resta3(754, 484, 102) == 168
+	assert resta3(186, 295, 33) == -142
 
 def test_mul():
 	assert mul(5, 9) == 45
-	assert mul(47, 13) == 661
+	assert mul(47, 13) == 611
 	
 def test_mul2():
 	assert mul2(7, 9) == 63
