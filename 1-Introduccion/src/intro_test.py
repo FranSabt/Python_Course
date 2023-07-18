@@ -1,5 +1,7 @@
 from intro import *
+import pytest
 
+@pytest.mark.slow 
 def test_hello():
 	assert hello() == "Hello World!"
 	
