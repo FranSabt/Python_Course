@@ -1,7 +1,7 @@
 
 # 1 - Primeros Pasos 
 
-  ## 1.1 Usando Python por primera vez
+  ## 1.1 Usando Python por primera vez (a travez de la consola)
  
 Primero que nada, vamos a usar el Entorno de Python con algunas Operaciones básicas.
 
@@ -319,19 +319,17 @@ Si por alguna razón se arruina el archivo, usa el comando `git checkout main` y
 
 Con el comando `pytest` vamos a correr los test automatizados de los problemas que se plantean.
 
-Este archivo contiene 18 test para realizar.
-
-Primero:
-Imagen
+Este archivo contiene 18 tests para realizar.
+``![image de tests](./imgs/tests.png)`
 
 Cada 'F' indica un test fallido y será reemplazado por puntos cada vez que el test sea exitoso.
 
-**Imagen aqui
+``![image de tests](./imgs/pytest.png)`
 
 En un test fallido, puedes ver:
 	
 
- 1. La función dńde se ejecutó y falló.
+ 1. La función dónde se ejecutó y falló.
  2. El resultado esperado.
  3. El resultado obtenido.
 
@@ -340,3 +338,4 @@ Lee con calma la consola para saber donde esta el error.
 **Imagen aqui
 
 Y recuerda que puedes hacer varios branch del archivo y practicar cuanto desees.
+
